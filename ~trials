@@ -8,7 +8,7 @@ for future projects such as HTML, CSS, Front end integration etc
 Description of the commandline interpreter
 ==================================================================================
 
-The console is the interface we'll build to help us interact with
+The commandline interpreter is the interface we'll build to help us interact with
 backend functions. The interpreter uses the cmd class which helps us interact in
 both interactive and non-interactive modes.
 
