@@ -27,11 +27,13 @@ both interactive and non-interactive modes.
 How to start it
 -----------------------------------------------------------------------------------
 Python3 is already installed in the unix shell. Run the following command to help
-in starting it. All your python scripts should start with this line.
+in starting it: python 3
+
+All your python scripts should start with this line.
 
 #!/usr/bin/python3
 
-Typing an EOF character such as control-D at the primary prompt causes the interpreter
+Typing an EOF character such as control-Cat the primary prompt causes the interpreter
 to exit with a zero exit status.
 
 How to use it
