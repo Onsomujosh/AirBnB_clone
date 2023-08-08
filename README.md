@@ -2,14 +2,15 @@ Description of the project
 =================================================================================
 hbnb is the first step towards building our first full web application.
 
-In this initial step, we are going to build a console which will be a foundation
+In this initial step, we are going to build a console which will be the foundation
 for future projects such as HTML, CSS, Front end integration etc
 
-Description of the console
+Description of the console/ commandline interpreter
 ==================================================================================
 
 The console is the interface we'll build to help us interact with
-backend functions.
+backend functions. The 2 words (console and commandline interpreter) are used
+interchangeably.
 
 The console will help us manage the following objects in our project.
 
@@ -19,8 +20,7 @@ The console will help us manage the following objects in our project.
 	4. Update attributes of an object
 	5. Destroy an object
 
-Description of the commandline interpreter
-====================================================================================
+
 The interpreter uses the cmd class which helps us interact in
 both interactive and non-interactive modes.
 
@@ -33,7 +33,7 @@ All your python scripts should start with this line.
 
 #!/usr/bin/python3
 
-Typing an EOF character such as control-Cat the primary prompt causes the interpreter
+Typing an EOF character such as control-C at the primary prompt causes the interpreter
 to exit with a zero exit status.
 
 How to use it
