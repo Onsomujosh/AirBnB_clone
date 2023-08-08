@@ -5,12 +5,11 @@ hbnb is the first step towards building our first full web application.
 In this initial step, we are going to build a console which will be a foundation
 for future projects such as HTML, CSS, Front end integration etc
 
-Description of the commandline interpreter
+Description of the console
 ==================================================================================
 
 The console is the interface we'll build to help us interact with
-backend functions. The interpreter uses the cmd class which helps us interact in
-both interactive and non-interactive modes.
+backend functions.
 
 The console will help us manage the following objects in our project.
 
@@ -19,6 +18,11 @@ The console will help us manage the following objects in our project.
 	3. Do operations on objects (count, compute stats, etc…)
 	4. Update attributes of an object
 	5. Destroy an object
+
+Description of the commandline interpreter
+====================================================================================
+The interpreter uses the cmd class which helps us interact in
+both interactive and non-interactive modes.
 
 How to start it
 -----------------------------------------------------------------------------------
