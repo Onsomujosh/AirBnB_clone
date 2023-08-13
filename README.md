@@ -128,7 +128,8 @@ Place, Review
 FileStorage
 ========================================================================================================
 
-The FileSorage class implements the file storage in this project. The data is stored in json.
+The FileSorage class implements the file storage in this project. The data is stored in json. The class acts
+as our database
 
 
 
