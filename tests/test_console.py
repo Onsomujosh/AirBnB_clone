@@ -1399,7 +1399,7 @@ class TestHBNBCommand_update(unittest.TestCase):
     def test_update_valid_dictionary_dot_notation(self):
         with patch("sys.stdout", new=StringIO()) as output:
             HBNBCommand().onecmd("create BaseModel")
-            testId = output.getvalue().strip('"')
+            testId = output.getvalue().strip()
             testCmd = "update BaseModel {} attr_name 'attr_value'".format(testId)
             testCmd += "{'attr_name': attr_value})"
             HBNBCommand().onecmd(testCmd)
